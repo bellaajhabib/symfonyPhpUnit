@@ -1,3 +1,5 @@
+
+
 model:
     resource: "@ModelBundle/Controller/"
     type:     annotation
@@ -6,8 +8,5 @@ model:
 core:
     resource: "@CoreBundle/Controller/"
     type:     annotation
-    prefix:   /
+    prefix:   /core
 
-app:
-    resource: "@AppBundle/Controller/"
-    type:     annotation
